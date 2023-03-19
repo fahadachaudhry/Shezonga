@@ -33,8 +33,8 @@ function Principles() {
   ];
 
   return (
-    <div className="bg-zinc-800 p-20 pt-80 mb-32">
-      <div className="container mx-auto px-4 mb-20">
+    <div className="bg-zinc-800 px-10 lg:px-20 pt-96 lg:pt-60 mb-32">
+      <div className="container mx-auto mb-20">
         <h1 className="uppercase text-violet-500 mb-2">Principles</h1>
         <p className="uppercase text-4xl text-white mb-20">
           The challenger Consultancy
@@ -47,7 +47,7 @@ function Principles() {
                 height: "450px",
                 marginLeft: index !== 0 ? "20px" : undefined,
               }}
-              className="w-3/12 bg-zinc-700 flex-shrink-0 rounded-md flex flex-col justify-between items-start p-6"
+              className="w-full lg:w-3/12 bg-zinc-700 flex-shrink-0 rounded-md flex flex-col justify-between items-start p-6"
             >
               <p className="text-zinc-400">/0{index + 1}</p>
               <img src={principle.thumb} />

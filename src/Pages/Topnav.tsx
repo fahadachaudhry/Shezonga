@@ -9,13 +9,13 @@ function Topnav() {
           <Logo />
         </div>
       </div>
-      <div className="flex items-start justify-between">
-        <div className="w-9/12">
-          <h1 className="uppercase text-8xl text-zinc-800">
+      <div className="flex items-start flex-wrap justify-between">
+        <div className="w-full lg:w-9/12 pb-10 lg:pb-0">
+          <h1 className="uppercase text-4xl lg:text-8xl text-zinc-800">
             MORE THAN JUST A CONSULTING AGENCY
           </h1>
         </div>
-        <div className="w-3/12">
+        <div className="md:w-full lg:w-3/12">
           <p className="mb-6">
             Out people are laser-focussed. High performers without the ego.
           </p>

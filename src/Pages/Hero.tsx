@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="flex items-start justify-start mb-32">
-      <div className="w-8/12">
+    <div className="flex items-start justify-start flex-wrap lg:flex-nowrap mb-32">
+      <div className="w-full lg:w-8/12">
         <div
           className="cover bg-top w-full"
           style={{
@@ -12,7 +12,7 @@ function Hero() {
           }}
         />
       </div>
-      <div className="w-4/12">
+      <div className="w-full lg:w-4/12">
         <div
           className="cover bg-center w-full"
           style={{

@@ -2,16 +2,16 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="container mx-auto px-4 mb-52">
+    <div className="container mx-auto px-4 mb-20 lg:mb-52">
       <h1 className="uppercase text-violet-500 mb-2">Team</h1>
-      <p className="uppercase text-4xl text-zinc-800 mb-36 w-8/12">
+      <p className="uppercase text-2xl lg:text-4xl text-zinc-800 mb-20 lg:mb-36 w-8/12">
         Work with the best specialists who have the functional experience,
         industry knowledge and technical expertise your project needs.
       </p>
-      <div className="flex items-start justify-between">
-        <div className="w-6/12 relative mr-10">
+      <div className="flex items-start justify-between flex-wrap lg:flex-nowrap">
+        <div className="w-full lg:w-6/12 relative mb-10 lg:mb-0 lg:mr-10">
           <div
-            className="bg-top bg-cover absolute top-0 right-0 w-full"
+            className="bg-top bg-cover lg:absolute top-0 right-0 w-full"
             style={{
               height: "400px",
               backgroundImage: `url(${"https://images.unsplash.com/photo-1600275669177-176b3c586d22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"})`,
@@ -23,9 +23,9 @@ function Team() {
             </div>
           </div>
         </div>
-        <div className="w-3/12 relative mr-10">
+        <div className="w-full lg:w-3/12 relative mb-10 lg:mb-0 lg:mr-10">
           <div
-            className="bg-top bg-cover absolute top-0 right-0 w-full"
+            className="bg-top bg-cover lg:absolute top-0 right-0 w-full"
             style={{
               height: "400px",
               backgroundImage: `url(${"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"})`,
@@ -37,9 +37,9 @@ function Team() {
             </div>
           </div>
         </div>
-        <div className="w-3/12 relative">
+        <div className="w-full lg:w-3/12 relative">
           <div
-            className="bg-top bg-cover absolute top-0 right-0 w-full"
+            className="bg-top bg-cover lg:absolute top-0 right-0 w-full"
             style={{
               height: "400px",
               backgroundImage: `url(${"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"})`,

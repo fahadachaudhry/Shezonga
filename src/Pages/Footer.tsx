@@ -14,12 +14,12 @@ function Footer() {
           backgroundImage: `url(${"https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"})`,
         }}
       ></div>
-      <div className="container mx-auto px-4 py-20 flex items-start justify-between">
-        <div className="w-4/12">
+      <div className="container mx-auto px-4 py-20 flex items-start justify-between flex-wrap lg:flex-nowrap">
+        <div className="w-full pb-10 lg:w-4/12 ">
           <div className="text-2xl font-semibold mb-4">
             <Logo />
           </div>
-          <p className="text-sm text-zinc-400">Copyright © Logo 2022</p>
+          <p className="text-sm text-zinc-400">Copyright ©Shezonga 2022</p>
           <p className="text-sm text-zinc-400 mb-4">All rights reserved</p>
           <div className="flex items-center justify-start">
             <p className="mr-4">
@@ -33,7 +33,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="w-2/12">
+        <div className="w-full pb-10 lg:w-2/12">
           <p className="text-sm text-zinc-500 mb-4 uppercase">Menu</p>
           <a href="#" className="text-sm text-zinc-400 mb-4 block">
             Industries
@@ -48,7 +48,7 @@ function Footer() {
             Case Careers
           </a>
         </div>
-        <div className="w-2/12">
+        <div className="w-full pb-10 lg:w-2/12">
           <p className="text-sm text-zinc-500 mb-4 uppercase">Contact</p>
           <a href="#" className="text-sm text-zinc-400 mb-4 block">
             103 Bartlett St.
@@ -63,7 +63,7 @@ function Footer() {
             78-704-5159
           </a>
         </div>
-        <div className="w-4/12">
+        <div className="w-full lg:w-4/12">
           <p className="text-sm text-zinc-500 mb-4 uppercase">Newsletter</p>
           <p className="text-sm text-zinc-400 mb-4">
             Subscribe and be the first to receive all the latest insights.

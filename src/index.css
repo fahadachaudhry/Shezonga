@@ -25,3 +25,7 @@
 .hide-moveable-control-border {
   display: none !important;
 }
+
+.check {
+  border: 1px solid red;
+}
