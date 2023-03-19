@@ -1,4 +1,5 @@
 import React from "react";
+import officeCafe from "../assets/office-cafe.avif";
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
           <div
             className="bg-center bg-cover absolute top-0 right-0 w-full ml-20 h-96"
             style={{
-              backgroundImage: `url(${"https://images.unsplash.com/photo-1653762377047-6ecda48e225c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"})`,
+              backgroundImage: `url(${officeCafe})`,
             }}
           ></div>
         </div>

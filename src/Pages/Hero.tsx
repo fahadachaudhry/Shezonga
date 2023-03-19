@@ -1,4 +1,6 @@
 import React from "react";
+import hero1 from "../assets/hero-1.avif";
+import hero2 from "../assets/hero-2.avif";
 
 function Hero() {
   return (
@@ -8,7 +10,7 @@ function Hero() {
           className="cover bg-top w-full"
           style={{
             height: "600px",
-            backgroundImage: `url(${"https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"})`,
+            backgroundImage: `url(${hero1})`,
           }}
         />
       </div>
@@ -17,7 +19,7 @@ function Hero() {
           className="cover bg-center w-full"
           style={{
             height: "600px",
-            backgroundImage: `url(${"https://images.unsplash.com/photo-1543269865-4430f94492b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"})`,
+            backgroundImage: `url(${hero2})`,
           }}
         />
       </div>
